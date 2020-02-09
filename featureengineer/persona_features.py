@@ -70,7 +70,7 @@ def categoryEncoder(dt,col):
     gc.collect()
     return dt
 
-#前后x次曝光距当前当前曝光所隔时间（其中后x次曝光为穿越特征在实际线上服务中是无法使用的，本部分不考虑线上服务所以使用了该特征）
+#前后x次曝光距当前当前曝光所隔时间（其中后x次曝光为穿越特征在实际线上服务中是无法使用的，这里使用了但没有改，后续可以去掉后x次曝光）
 def ts_gap(sort_df,tsGapFeatures):
     added_cols = []
     for f in tsGapFeatures:
