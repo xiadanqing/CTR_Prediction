@@ -1,7 +1,7 @@
 import heapq
 import math
 
-data_path = '/Users/xiadanqing/Desktop/码上人生/推荐系统/视频点击率预估比赛/CTRModel/data/'
+data_path = '/Users/xiadanqing/Desktop/码上人生/推荐系统/视频点击率预估/CTR_Prediction/data/'
 
 
 key2index = {'sign_by_xdq': 0}
