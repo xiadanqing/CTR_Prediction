@@ -131,7 +131,7 @@ def main():
         ['newsid', 'pos'], ['newsid', 'netmodel']
     ]
     df, added_cols = ts_gap(df, tsGapFeatures)
-    # 嵌入特征
+    # 嵌入特征---测试发现效果无提升，可去掉该嵌入特征
     print('embedding is begin')
     emb_cols = [
         ['guid', 'newsid'],
